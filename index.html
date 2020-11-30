@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Russian Fitness</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="hamburger" id="ham">
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="70" onclick="this.classList.toggle('active')">
+                <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+        </div>
+        <div class="header__inner">
+            <div class="header__logo-desktop"><img src="assets/images/header/Logo.png" alt="logo"></div>
+            <div class="header__logo-mobile"><img src="assets/images/header/Logo2.png" alt="logo"></div>
+            <nav class="nav" id="nav">
+                <a class="nav__link">Услуги</a>
+                <a class="nav__link">Цены</a>
+                <a class="nav__link">Акции</a>
+                <a class="nav__link">Контакты</a>
+                <a href="#" class="header__btn header__btn--nav" id="header__btn-nav">Войти</a>
+            </nav>
+            <a href="#" class="header__btn" id="header__btn">Войти</a>
+            <div class="header__info">
+                <div class="header__info-phone">+7 3466 58-48-84</div>
+                <div class="header__info-address">г. Нижневартовск, ТЦ “Орион”</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <img src="assets/images/Step1.png" alt="step" class="step1">
+        <div class="mobile__gradient"></div>
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__left">
+                    <h2 class="intro__title">ТВОЯ<br> ВОЗМОЖНОСТЬ <br>СТАТЬ ЛУЧШЕ</h2>
+                    <h3 class="intro__subtitle">Комфортное фитнес пространство для твоего стремительного прогресса</h3>
+                    <div class="header__carousel">
+                        <img src="assets/images/intro/arrow-right.svg" alt="arrow" class="arrow-right" id="header-arrow">
+                        <div class="owl-carousel" id="header-carousel">
+                            <div class="intro__facts-item intro__facts-item--mobile">
+                                <div class="intro__facts-number">600м²</div>
+                                <div class="intro__facts-text">комфортного фитнес пространства. Сауна, полотенца и гели для душа - бесплатно</div>
+                            </div>
+                            <div class="intro__facts-item intro__facts-item--mobile">
+                                <div class="intro__facts-number">10</div>
+                                <div class="intro__facts-text">квалифицированных тренеров</div>
+                            </div>
+                            <div class="intro__facts-item intro__facts-item--mobile">
+                                <div class="intro__facts-number">0</div>
+                                <div class="intro__facts-text">очередей на тренажёры</div>
+                            </div>
+                            <div class="intro__facts-item intro__facts-item--mobile">
+                                <div class="intro__facts-number">2010</div>
+                                <div class="intro__facts-text">год основания</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro__free">
+                        <div class="free__circle"></div>
+                        <div class="free__text">Бесплатные тренировки</div>
+                    </div>
+                </div>
+                <div class="intro__right">
+                    <div class="intro__facts">
+                        <div class="intro__facts-item">
+                            <div class="intro__facts-number">600м²</div>
+                            <div class="intro__facts-text">комфортного фитнес пространства. Сауна, полотенца и гели для душа - бесплатно</div>
+                        </div>
+                        <div class="intro__facts-item">
+                            <div class="intro__facts-number">10</div>
+                            <div class="intro__facts-text">квалифицированных тренеров</div>
+                        </div>
+                        <div class="intro__facts-item">
+                            <div class="intro__facts-number">0</div>
+                            <div class="intro__facts-text">очередей на тренажёры</div>
+                        </div>
+                        <div class="intro__facts-item">
+                            <div class="intro__facts-number">2010</div>
+                            <div class="intro__facts-text">год основания</div>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/VK.svg" alt="VK">
+                        </a>
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/FB.svg" alt="FB">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="price">
+        <img src="assets/images/Step2.png" alt="step" class="step2">
+        <div class="container container--price">
+            <div class="price__inner">
+                <div class="price__heading">
+                    <h3 class="section__title section__title--price">Бесплатные тренировки. <span>Лучшие условия для новичков</span>
+                        <img src="assets/images/B.svg" alt="" class="section-icon"></h3>
+                    <a href="#" class="look_btn">Смотреть цены&nbsp;&nbsp;
+                        <img src="assets/images/price/Arrow-right.svg" alt="arrow" class="arrow__right">
+                    </a>
+                </div>
+                <div class="price__cards">
+                    <div class="price__card price__card--small">
+                        <h3 class="price__card-title">“Персоналка”</h3>
+                        <h4 class="price__card-subtitle">Персональные занятия с тренером</h4>
+                        <div class="price__card-main">
+                            <div class="price__left price__left--small">
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch1.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">60 минут</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Эффективно</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch3.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Опытный тренер</div>
+                                </div>
+                            </div>
+                            <div class="price__right">
+                                <div class="price__before">1200
+                                    <img src="assets/images/price/short-line.svg" alt="line">
+                                </div>
+                                <div class="price__after">бесплатно</div>
+                                <a href="#" class="price__btn">Записаться</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__card price__card--big">
+                        <h3 class="price__card-title">“ЛЁГКИЙ СТАРТ”</h3>
+                        <h4 class="price__card-subtitle">Месяц безлимитного посещения фитнес-клуба.</h4>
+                        <div class="price__card-main">
+                            <div class="price__left price__left--big">
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">3 персональные тренировки</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch3.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Программа тренировок</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch4.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Консультация по питанию</div>
+                                </div>
+                            </div>
+                            <div class="price__right">
+                                <div class="price__before">10190
+                                    <img src="assets/images/price/long-line.svg" alt="line">
+                                </div>
+                                <div class="price__after">3 590 руб.</div>
+                                <a href="#" class="price__btn">Записаться</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__card price__card--big">
+                        <h3 class="price__card-title">“ТЕСТ-ДРАЙВ”</h3>
+                        <h4 class="price__card-subtitle">Неделя безлимитного фитнеса.</h4>
+                        <div class="price__card-main">
+                            <div class="price__left price__left--big">
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch6.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Тренажёрный зал</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch7.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Кардио-зона</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch8.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Сауна, душ, полотенца, фен</div>
+                                </div>
+                            </div>
+                            <div class="price__right">
+                                <div class="price__before">1400
+                                    <img src="assets/images/price/short-line.svg" alt="line">
+                                </div>
+                                <div class="price__after">бесплатно</div>
+                                <a href="#" class="price__btn">Записаться</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__card price__card--small">
+                        <h3 class="price__card-title">“POWER PLATE”</h3>
+                        <h4 class="price__card-subtitle">Занятие в мини-группе на vip-тренажёрах.</h4>
+                        <div class="price__card-main">
+                            <div class="price__left price__left--small">
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch1.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">30 минут</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Минимум
+                                        противопоказаний</div>
+                                </div>
+                                <div class="price__fact-wrapper">
+                                    <img src="assets/images/price/stopwatch9.svg" alt="icon" class="price__fact-icon">
+                                    <div class="price__fact">Худеть легко</div>
+                                </div>
+                            </div>
+                            <div class="price__right">
+                                <div class="price__before">600
+                                    <img class="last__line" src="assets/images/price/short-line2.svg" alt="line">
+                                </div>
+                                <div class="price__after">бесплатно</div>
+                                <a href="#" class="price__btn">Записаться</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-carousel">
+                    <div class="carousel-gradient"></div>
+                    <img src="assets/images/price/carousel-arrow.svg" alt="arrow" class="carousel-arrow" id="carousel-arrow">
+                    <div class="owl-carousel" id="cards-carousel">
+                        <div class="carousel__card-item">
+                            <h3 class="price__card-title">“Персоналка”</h3>
+                            <h4 class="price__card-subtitle">Персональные занятия с тренером</h4>
+                            <div><img src="assets/images/price/stopwatch1.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">60 минут</div>
+                            <div><img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Опытный тренер</div>
+                            <div><img src="assets/images/price/stopwatch3.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Эффективно</div>
+                            <div class="price__before">1200
+                                <img src="assets/images/price/short-line.svg" alt="line">
+                            </div>
+                            <div class="price__after">бесплатно</div>
+                            <a href="#" class="price__btn">Записаться</a>
+                        </div>
+                        <div class="carousel__card-item">
+                            <h3 class="price__card-title">“ЛЁГКИЙ СТАРТ”</h3>
+                            <h4 class="price__card-subtitle">Месяц безлимитного посещения фитнес-клуба.</h4>
+                            <div><img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">3 персональные тренировки</div>
+                            <div><img src="assets/images/price/stopwatch4.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Программа тренировок</div>
+                            <div><img src="assets/images/price/stopwatch5.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Консультация по питанию</div>
+                            <div class="price__before">10190
+                                <img src="assets/images/price/long-line.svg" alt="line">
+                            </div>
+                            <div class="price__after">3 590 руб.</div>
+                            <a href="#" class="price__btn">Записаться</a>
+                        </div>
+                        <div class="carousel__card-item">
+                            <h3 class="price__card-title">“ТЕСТ-ДРАЙВ”</h3>
+                            <h4 class="price__card-subtitle">Неделя безлимитного<br> фитнеса.</h4>
+                            <div><img src="assets/images/price/stopwatch6.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Тренажёрный зал</div>
+                            <div><img src="assets/images/price/stopwatch7.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Кардио-зона</div>
+                            <div><img src="assets/images/price/stopwatch8.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Сауна, душ, полотенца, фен</div>
+                            <div class="price__before">1400
+                                <img src="assets/images/price/long-line.svg" alt="line">
+                            </div>
+                            <div class="price__after">бесплатно</div>
+                            <a href="#" class="price__btn">Записаться</a>
+                        </div>
+                        <div class="carousel__card-item">
+                            <h3 class="price__card-title">“POWER PLATE”</h3>
+                            <h4 class="price__card-subtitle">Занятие в мини-группе на vip-тренажёрах.</h4>
+                            <div><img src="assets/images/price/stopwatch1.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">30 минут</div>
+                            <div><img src="assets/images/price/stopwatch2.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Минимум
+                                противопоказаний</div>
+                            <div><img src="assets/images/price/stopwatch9.svg" alt="icon" class="price__fact-icon">
+                            </div>
+                            <div class="price__fact">Худеть легко</div>
+                            <div class="price__before">600
+                                <img class="last__line" src="assets/images/price/short-line2.svg" alt="line">
+                            </div>
+                            <div class="price__after">бесплатно</div>
+                            <a href="#" class="price__btn">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="look__all-btn"><a href="#">Смотреть все цены</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="circs">
+        <img src="assets/images/Step3.png" alt="step" class="step3">
+        <div class="container">
+            <h3 class="section__title section__title--circs">365 дней фитнеса. <span>Справедливая цена</span>
+                <img src="assets/images/3.svg" alt="" class="section-icon"></h3>
+            <div class="circs__inner">
+                <div class="circs__col">
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector1.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Просторный тренажёрный зал</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector2.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Современная кардио-зона</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector3.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Уютная сауна</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector4.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Комфортные раздевалки</div>
+                    </div>
+                </div>
+                <div class="circs__col">
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector5.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Чистые полотенца</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector6.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Освежающий душ</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector7.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">Квалифицированный персонал</div>
+                    </div>
+                    <div class="circs__item">
+                        <img src="assets/images/circs/Vector8.svg" alt="icon" class="circs__item-img">
+                        <div class="circs__item-text">+2 месяца в подарок</div>
+                    </div>
+                </div>
+            </div>
+            <div class="circs__price">от <span>11 990 руб</span>.</div>
+            <div class="book__btn"><a href="#">Забронировать</a></div>
+        </div>
+        <img src="assets/images/circs/bg-star.png" alt="star" class="bg__star">
+    </section>
+
+    <section class="training">
+        <img src="assets/images/Step4.png" alt="step" class="step4">
+        <div class="container">
+            <h3 class="section__title section__title--training">Групповые тренировки. <span>Разнообразь свой тренинг</span>
+                <img src="assets/images/G.svg" alt="" class="section-icon"></h3>
+            <div class="training__inner">
+                <div class="training__item training__item--first">
+                    <div class="training__item-img"><img src="assets/images/training/Image1.jpg" alt="training"></div>
+                    <div class="training__item-main">
+                        <div class="training__item-about">
+                            <div class="training__item-time">30 минут</div>
+                            <h4 class="training__item-name">Занятие на тренажёрах Power Plate</h4>
+                            <div class="training__item-text">Противопоказано поднимать тяжести?
+                                Это эффективные и безопасные тренировки.
+                                Экономь время - 30 минут тренировки, как
+                                2 часа в тренажёрном зале.</div>
+                        </div>
+                        <div class="training__price-wrapper">
+                            <div class="training__price">
+                                <div><span>600</span> руб.</div>
+                            </div>
+                            <div class="training__try-btn">
+                                <a href="#">Попробовать<br> бесплатно</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="training__item">
+                    <div class="training__item-img"><img src="assets/images/training/Image2.jpg" alt="training" id="review-image2"></div>
+                    <div class="training__item-main">
+                        <div class="training__item-about">
+                            <div class="training__item-time">60 минут</div>
+                            <h4 class="training__item-name">Tribal Dance</h4>
+                        </div>
+                        <div class="training__price">
+                            <div><span>400</span> руб.</div>
+                        </div>
+                        <div class="training__try-btn">
+                            <a href="#">Попробовать бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="training__item">
+                    <div class="training__item-img"><img src="assets/images/training/Image3.jpg" alt="training" id="review-image3"></div>
+                    <div class="training__item-main">
+                        <div class="training__item-about">
+                            <div class="training__item-time">1 час 30 минут</div>
+                            <h4 class="training__item-name">Айенгар йога</h4>
+                        </div>
+                        <div class="training__price">
+                            <div><span>500</span> руб.</div>
+                        </div>
+                        <div class="training__try-btn">
+                            <a href="#">Попробовать бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="training__item">
+                    <div class="training__item-img"><img src="assets/images/training/Image4.jpg" alt="training" id="review-image4"></div>
+                    <div class="training__item-main">
+                        <div class="training__item-about">
+                            <div class="training__item-time">60 минут</div>
+                            <h4 class="training__item-name">Super Strong</h4>
+                        </div>
+                        <div class="training__price">
+                            <div><span>500</span> руб.</div>
+                        </div>
+                        <div class="training__try-btn">
+                            <a href="#">Попробовать бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="training__item">
+                    <div class="training__item-img"><img src="assets/images/training/Image5.jpg" alt="training" id="review-image5"></div>
+                    <div class="training__item-main">
+                        <div class="training__item-about">
+                            <div class="training__item-time">60 минут</div>
+                            <h4 class="training__item-name">Zumba</h4>
+                        </div>
+                        <div class="training__price">
+                            <div><span>400</span> руб.</div>
+                        </div>
+                        <div class="training__try-btn">
+                            <a href="#">Попробовать бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="personal">
+        <img src="assets/images/Step5.png" alt="step" class="step5">
+        <div class="trainer_images" id="rotator">
+            <div class="bg__trainer show" data-number="1">
+                <img src="assets/images/personal/trainer-bg.png" alt="trainer">
+                <div class="bg__trainer-text">
+                    <div class="personal__right-name"><span>ПОДГУРСКИЙ</span><br>
+                        АНДРЕЙ</div>
+                    <div class="personal__right-text">
+                        Андрей - сертифицированный персональный тренер. Окончил спортивный факультет НСГК.<br><br>
+                        Забудьте о диетах на кефире и яблоках, Андрей разрешает своим клиентам даже тортики - добейтесь целей вкусно.
+                    </div>
+                    <div class="personal__right-about">
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">6</div>
+                            <div class="personal__about-text">место в ХМАО
+                                в дисциплине Men’s Physique</div>
+                        </div>
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">5</div>
+                            <div class="personal__about-text">лет помогает набирать и скидывать вес</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg__trainer" data-number="2"><img src="https://clipart-best.com/img/doctors-and-nurses/doctors-and-nurses-clip-art-12.png" alt="trainer"></div>
+            <div class="bg__trainer" data-number="3"><img src="https://clipart-best.com/img/running-man/running-man-clip-art-55.png" alt="trainer"></div>
+        </div>
+        <div class="arrow_right" id="arrow-right"><img src="assets/images/personal/Arrow.svg" alt="arrow"></div>
+        <div class="personal__left">
+            <div class="personal__wrapper">
+                <h3 class="section__title section__title--personal">Персональные тренировки. <span>Ответственность за результат</span>
+                    <img src="assets/images/P.svg" alt="" class="section-icon section-icon--personal"></h3>
+
+                <div class="personal__content-left">
+                    <div class="personal__left-text">
+                        Индивидуальные занятия с тренером приносят результат быстрее, качественнее и безопаснее, чем самостоятельные тренировки.
+                    </div>
+                    <div class="personal__left-point">
+                        <img src="assets/images/personal/Star.svg" alt="star" class="star__icon">
+                        <div>Индивидуальная программа тренировок</div>
+                    </div>
+                    <div class="personal__left-point">
+                        <img src="assets/images/personal/Star.svg" alt="star" class="star__icon">
+                        <div>Рекомендации по режиму дня и питанию</div>
+                    </div>
+                    <div class="personal__left-point">
+                        <img src="assets/images/personal/Star.svg" alt="star" class="star__icon">
+                        <div>Правильная техника упражнений</div>
+                    </div>
+                    <div class="personal__left-point">
+                        <img src="assets/images/personal/Star.svg" alt="star" class="star__icon">
+                        <div>Страховка на сложных упражнениях</div>
+                    </div>
+                    <div class="personal__left-point">
+                        <img src="assets/images/personal/Star.svg" alt="star" class="star__icon">
+                        <div>Учитывает ваши цели и особенности</div>
+                    </div>
+                    <a href="#" class="personal__left-btn">Записаться</a>
+                </div>
+            </div>
+        </div>
+        <div class="personal__right">
+            <div class="owl-carousel owl-carousel--personal" id="personal-carousel">
+                <div class="personal__right-wrapper">
+                    <div class="personal__right-name"><span>ПОДГУРСКИЙ</span><br>
+                        АНДРЕЙ</div>
+                    <div class="personal__right-text">
+                        Андрей - сертифицированный персональный тренер. Окончил спортивный факультет НСГК.<br><br>
+                        Забудьте о диетах на кефире и яблоках, Андрей разрешает своим клиентам даже тортики - добейтесь целей вкусно.
+                    </div>
+                    <div class="personal__right-about">
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">6</div>
+                            <div class="personal__about-text">место в ХМАО
+                                в дисциплине Men’s Physique</div>
+                        </div>
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">5</div>
+                            <div class="personal__about-text">лет помогает набирать и скидывать вес</div>
+                        </div>
+                    </div>
+                    <img src="assets/images/personal/bg-mobile.png" alt="" class="personal__bg-mobile">
+                </div>
+                <div class="personal__right-wrapper">
+                    <div class="personal__right-name"><span>ПОДГУРСКИЙ</span><br>
+                        АНДРЕЙ</div>
+                    <div class="personal__right-text">
+                        Андрей - сертифицированный персональный тренер. Окончил спортивный факультет НСГК.<br><br>
+                        Забудьте о диетах на кефире и яблоках, Андрей разрешает своим клиентам даже тортики - добейтесь целей вкусно.
+                    </div>
+                    <div class="personal__right-about">
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">6</div>
+                            <div class="personal__about-text">место в ХМАО
+                                в дисциплине Men’s Physique</div>
+                        </div>
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">5</div>
+                            <div class="personal__about-text">лет помогает набирать и скидывать вес</div>
+                        </div>
+                    </div>
+                    <img src="assets/images/personal/bg-mobile.png" alt="" class="personal__bg-mobile">
+                </div>
+                <div class="personal__right-wrapper">
+                    <div class="personal__right-name"><span>ПОДГУРСКИЙ</span><br>
+                        АНДРЕЙ</div>
+                    <div class="personal__right-text">
+                        Андрей - сертифицированный персональный тренер. Окончил спортивный факультет НСГК.<br><br>
+                        Забудьте о диетах на кефире и яблоках, Андрей разрешает своим клиентам даже тортики - добейтесь целей вкусно.
+                    </div>
+                    <div class="personal__right-about">
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">6</div>
+                            <div class="personal__about-text">место в ХМАО
+                                в дисциплине Men’s Physique</div>
+                        </div>
+                        <div class="personal__about-item">
+                            <div class="personal__about-number">5</div>
+                            <div class="personal__about-text">лет помогает набирать и скидывать вес</div>
+                        </div>
+                    </div>
+                    <img src="assets/images/personal/bg-mobile.png" alt="" class="personal__bg-mobile">
+                </div>
+            </div>
+            <div class="personal-arrow" id="personal-arrow"><img src="assets/images/personal/Arrow.svg" alt="arrow"></div>
+            <div class="personal__right-gradient">
+            </div>
+            <div class="personal__right-gradient-mobile"></div>
+        </div>
+    </section>
+
+    <div class="words">
+        <img src="assets/images/Words.svg" alt="words">
+    </div>
+
+    <div class="gallery">
+        <img src="assets/images/Step6.png" alt="step" class="step6">
+        <div class="slider">
+            <div class="slider-image" data-image="#content1">
+                <img src="assets/images/gallery/Image1.jpg" />
+                <div class="slider-image-mobilewrap">
+                    <div class="slider-image-mobiletit">КАРДИО-ЗОНА</div>
+                    <div class="slider-image-mobiletxt">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+            </div>
+            <div class="slider-image" data-image="#content2">
+                <img src="https://cdn2.img.sputnik-ossetia.ru/images/541/79/5417907.jpg" />
+                <div class="slider-image-mobilewrap">
+                    <div class="slider-image-mobiletit">ТРЕНАЖЁРНЫЙ ЗАЛ</div>
+                    <div class="slider-image-mobiletxt">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+            </div>
+            <div class="slider-image" data-image="#content3">
+                <img src="http://mastergym.ru/images/articles/photo/IMG_0020.jpg" />
+                <div class="slider-image-mobilewrap">
+                    <div class="slider-image-mobiletit">СВОБОДНАЯ ЗОНА</div>
+                    <div class="slider-image-mobiletxt">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+            </div>
+            <div class="slider-image" data-image="#content4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmRdgVJ4JqmbSuyD2XKHDerqT3QGyptBsCvB8KkMqUjit0_7J" />
+                <div class="slider-image-mobilewrap">
+                    <div class="slider-image-mobiletit">SPA-ЗОНЫ</div>
+                    <div class="slider-image-mobiletxt">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <h3 class="section__title section__title--accordion">Фитнес зоны. <span>600м² комфорта</span></h3>
+            <div class="accordion__main">
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#content1">КАРДИО-ЗОНА <span class="state">-</span></div>
+                    <div class="accordion__content before accordion__content--first" id="content1">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#content2">ТРЕНАЖЁРНЫЙ ЗАЛ <span class="state">+</span></div>
+                    <div class="accordion__content" id="content2">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#content3">СВОБОДНАЯ ЗОНА <span class="state">+</span></div>
+                    <div class="accordion__content" id="content3">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#content4">SPA-ЗОНЫ<span class="state">+</span></div>
+                    <div class="accordion__content" id="content4">
+                        Разнообразьте тренировки и не стойте в очереди благодаря большому количеству современных кардио-тренажёров, от беговых дорожек до тренажёра-лестницы,
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trial">
+        <div class="container">
+            <h2 class="trial__title">7 ДНЕЙ ПОСЕЩЕНИЯ ФИТНЕС-КЛУБА ЗА 0 РУБЛЕЙ</h2>
+            <div class="trial__text">Пробный период для тех кто не был Russian Fitness:
+                в любое время доступны кардио-зона, тренажёрный зал, сауну.</div>
+            <a href="#" class="trial__btn">Записаться</a>
+        </div>
+    </div>
+
+    <section class="reviews">
+        <img src="assets/images/Step7.png" alt="step" class="step7">
+        <div class="container">
+            <h3 class="section__title section__title--reviews">Отзывы клиентов. <span>Убедись, что здесь круто</span></h3>
+            <div class="reviews__inner">
+                <div class="reviews__item">
+                    <div class="reviews__item-img"><img src="assets/images/reviews/Image1.jpg" alt="reviews"></div>
+                    <div class="reviews__item-name">Иванов Павел</div>
+                    <div class="reviews__item-status">Бизнесмен</div>
+                    <div class="reviews__item-text">Желающие убедиться в качестве тренеров, зала и отношения к клиентам - приходите и сами всё посмотрите.</div>
+                    <a href="#" class="reviews__item-btn">Видео отзыв</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-img"><img src="assets/images/reviews/Image1.jpg" alt="reviews"></div>
+                    <div class="reviews__item-name">Иванов Павел</div>
+                    <div class="reviews__item-status">Бизнесмен</div>
+                    <div class="reviews__item-text">Желающие убедиться в качестве тренеров, зала и отношения к клиентам - приходите и сами всё посмотрите.</div>
+                    <a href="#" class="reviews__item-btn">Видео отзыв</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-img"><img src="assets/images/reviews/Image1.jpg" alt="reviews"></div>
+                    <div class="reviews__item-name">Иванов Павел</div>
+                    <div class="reviews__item-status">Бизнесмен</div>
+                    <div class="reviews__item-text">Желающие убедиться в качестве тренеров, зала и отношения к клиентам - приходите и сами всё посмотрите.</div>
+                    <a href="#" class="reviews__item-btn">Видео отзыв</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="assets/images/Step8.png" alt="step" class="step8">
+        <div class="footer__wrapper">
+            <div class="footer__main">
+                <div class="footer__logo"><img src="assets/images/footer/Logo.png" alt="logo"></div>
+                <div class="footer__menu">
+                    <div class="footer__menu-item"><a href="#" class="footer__link">
+                            Бесплатные тренировки
+                        </a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__link">
+                            Акции фитнес клуба
+                        </a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__link">
+                            Цены на абонименты
+                        </a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__link">
+                            Вход для клиентов
+                        </a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__link">
+                            Вход для сотрудников
+                        </a></div>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__info-text">
+                        г. Нижневартовск, ул. 60 лет Октября, 2А
+                        <br><br>
+                        +7 3466 58-48-84
+                        <br><br>
+                        margarita-badovskaya@yandex.ru
+                    </div>
+                    <div class="socials">
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/VK.svg" alt="VK">
+                        </a>
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="socials-link">
+                            <img src="assets/images/intro/FB.svg" alt="FB">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1938.541051658353!2d76.55209131613753!3d60.93037998224741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x436d394c2caf5779%3A0x81acaf8019211210!2z0YPQuy4gNjAg0JvQtdGCINCe0LrRgtGP0LHRgNGPLCAy0LAsINCd0LjQttC90LXQstCw0YDRgtC-0LLRgdC6LCDQpdCw0L3RgtGLLdC80LDQvdGB0LjQudGB0LrQuNC5INCQ0L4sIDYyODYwNg!5e0!3m2!1sru!2sru!4v1566757535970!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.4.1.min%20(1).js"></script>
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/app.js"></script>
+</body></html>

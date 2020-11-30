@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Cond XBold';
+    src: url('../fonts/AkzidenzGroteskPro-XBdCn.eot');
+    src: url('../fonts/AkzidenzGroteskPro-XBdCn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-XBdCn.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-XBdCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Light';
+    src: url('../fonts/AkzidenzGroteskPro-Light.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Light.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Cond Medium';
+    src: url('../fonts/AkzidenzGroteskPro-MdCn.eot');
+    src: url('../fonts/AkzidenzGroteskPro-MdCn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-MdCn.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-MdCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
